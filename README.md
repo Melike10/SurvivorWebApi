@@ -11,8 +11,7 @@ Survivor Web API, Survivor uygulaması için geliştirilmiş bir RESTful API'dir
   - [Kategori Yönetimi](#kategori-yönetimi)
   - [Yarışmacı Yönetimi](#yarışmacı-yönetimi)
 - [API Dökümantasyonu](#api-dökümantasyonu)
-- [Katkıda Bulunanlar](#katkıda-bulunanlar)
-- [Lisans](#lisans)
+
 
 ## Özellikler
 
