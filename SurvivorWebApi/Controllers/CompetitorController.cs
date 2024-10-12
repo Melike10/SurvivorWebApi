@@ -71,7 +71,12 @@ namespace SurvivorWebApi.Controllers
         {
             var comp = _context.Competitors.FirstOrDefault(c => c.Id == id);
             if (comp == null) { return NotFound(); }
-
+             // Check if the provided CategoryId is valid
+            var categoryExists = _context.Categories.Any(c => c.Id == competitorDto.CategoryId);
+            if (!categoryExists)
+              {
+                 return BadRequest("Competitor must belong to a valid category.");
+              }
             comp.FirstName = competitorDto.FirstName;
             comp.LastName = competitorDto.LastName;
             comp.ModifiedDate = DateTime.Now;
