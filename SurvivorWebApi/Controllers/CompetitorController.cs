@@ -32,7 +32,7 @@ namespace SurvivorWebApi.Controllers
             return Ok(comp);
         }
 
-        [HttpGet("{categoryId}")]
+        [HttpGet("categories/{categoryId}")]
         public async Task<IActionResult> GetByCategoryId(int categoryId)
         {
             var cat = await _context.Competitors.Where(c => c.CategoryId == categoryId).ToListAsync();
