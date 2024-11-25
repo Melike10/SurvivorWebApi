@@ -1,5 +1,7 @@
 # Survivor Web API
 
+Survivor Web API is a RESTful API developed for the Survivor application. This API provides data management by establishing a one-to-many relationship between categories and competitors. Users can create categories, add, update and delete competitors. They can also query existing data to view information about categories and competitors.
+
 Survivor Web API, Survivor uygulaması için geliştirilmiş bir RESTful API'dir. Bu API, kategoriler (`Category`) ve yarışmacılar (`Competitor`) arasında bire-çok (one-to-many) ilişkisi kurarak veri yönetimi sağlar. Kullanıcılar, kategoriler oluşturabilir, yarışmacıları ekleyebilir, güncelleyebilir ve silebilirler. Ayrıca, mevcut verileri sorgulayarak kategorilere ve yarışmacılara ait bilgileri görüntüleyebilirler.
 
 ## İçindekiler
